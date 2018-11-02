@@ -1,0 +1,27 @@
+{
+  "name": "be1-nc-leaks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BevRivling/BE1-nc-leaks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "ncGet": "./index.js",
+    "getCake": "./key.js"
+  },
+  "bugs": {
+    "url": "https://github.com/BevRivling/BE1-nc-leaks/issues"
+  },
+  "homepage": "https://github.com/BevRivling/BE1-nc-leaks#readme",
+  "dependencies": {
+    "superagent": "^4.0.0-beta.5"
+  },
+  "devDependencies": {}
+}
